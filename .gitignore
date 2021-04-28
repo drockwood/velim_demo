@@ -51,3 +51,6 @@ web/sites/*/private
 /robots.txt
 /update.php
 /web.config
+.DS_Store
+.DS_Store?
+**.DS_Store*
