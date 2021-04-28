@@ -1,0 +1,20 @@
+add user configuration entities:
+  title: 'Create new User Configuration entities'
+
+administer user configuration entities:
+  title: 'Administer User Configuration entities'
+  description: 'Allow to access the administration form to configure User Configuration entities.'
+  restrict access: true
+
+delete user configuration entities:
+  title: 'Delete User Configuration entities'
+
+edit user configuration entities:
+  title: 'Edit User Configuration entities'
+
+view published user configuration entities:
+  title: 'View published User Configuration entities'
+
+view unpublished user configuration entities:
+  title: 'View unpublished User Configuration entities'
+

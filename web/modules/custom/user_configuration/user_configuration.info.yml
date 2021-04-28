@@ -1,0 +1,5 @@
+name: 'User Configuration'
+type: module
+description: 'Stores a simple configuration object of first name, last name.'
+core_version_requirement: ^8 || ^9
+package: 'Velir'

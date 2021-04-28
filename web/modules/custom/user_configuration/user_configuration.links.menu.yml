@@ -1,0 +1,14 @@
+
+# User Configuration menu items definition
+entity.user_config.collection:
+  title: 'User Configuration list'
+  route_name: entity.user_config.collection
+  description: 'List User Configuration entities'
+  parent: system.admin_structure
+  weight: 100
+
+user_config.admin.structure.settings:
+  title: 'User Configuration settings'
+  description: 'Configure User Configuration entities'
+  route_name: user_config.settings
+  parent: system.admin_structure
