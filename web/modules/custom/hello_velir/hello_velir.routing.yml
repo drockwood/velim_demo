@@ -1,0 +1,23 @@
+
+hello_velir.default_controller_hello:
+  path: '/hello-velir-1'
+  defaults:
+    _controller: '\Drupal\hello_velir\Controller\DefaultController::hello'
+    _title: 'hello'
+  requirements:
+    _permission: 'access content'
+hello_velir.default_controller_hello_json:
+  path: '/hello-velir-2'
+  defaults:
+    _controller: '\Drupal\hello_velir\Controller\DefaultController::hello_json'
+    _title: 'hello_json'
+  requirements:
+    _permission: 'access content'
+hello_velir.default_controller_hello_admin:
+  path: '/hello-velir-3'
+  defaults:
+    _controller: '\Drupal\hello_velir\Controller\DefaultController::hello'
+    _title: 'hello'
+  requirements:
+    _permission: 'administer hello_velir'
+

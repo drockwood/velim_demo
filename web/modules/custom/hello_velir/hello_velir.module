@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains hello_velir.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function hello_velir_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the hello_velir module.
+    case 'help.page.hello_velir':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('hello world demo') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function hello_velir_theme() {
+  return [
+    'hello_velir' => [
+      'render element' => 'children',
+    ],
+  ];
+}

@@ -18,6 +18,10 @@
 /sites/*/tmp
 /sites/*/cache
 
+web/files
+web/sites/*/files
+web/sites/*/private
+
 # Ignore testing related files
 /sites/simpletest
 

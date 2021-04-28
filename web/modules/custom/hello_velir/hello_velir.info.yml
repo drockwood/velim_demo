@@ -1,0 +1,5 @@
+name: 'Hello Velir'
+type: module
+description: 'hello world demo'
+core_version_requirement: ^8 || ^9
+package: 'Velir'
