@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => '032fb0f6cc6c794b50672d912970c9fb2de86e4a',
+    'reference' => '01a8457af79724823c69134f0b8aee53776f993d',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -969,12 +969,12 @@
     ),
     'drupal/recommended-project' => 
     array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => '032fb0f6cc6c794b50672d912970c9fb2de86e4a',
+      'reference' => '01a8457af79724823c69134f0b8aee53776f993d',
     ),
     'drupal/responsive_image' => 
     array (
@@ -989,6 +989,15 @@
       array (
         0 => '9.1.7',
       ),
+    ),
+    'drupal/restui' => 
+    array (
+      'pretty_version' => '1.20.0',
+      'version' => '1.20.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.20',
     ),
     'drupal/search' => 
     array (
@@ -1344,8 +1353,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '^1.0',
+        0 => '^1.0',
+        1 => '1.0',
       ),
     ),
     'psr/event-dispatcher-implementation' => 

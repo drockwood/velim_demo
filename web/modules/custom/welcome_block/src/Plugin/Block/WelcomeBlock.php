@@ -1,19 +1,19 @@
 <?php
 
-namespace Drupal\drupalup_block\Plugin\Block;
+namespace Drupal\welcome_block\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 
 /**
- * Provides a 'Drupalup Block' Block.
+ * Provides a 'Welcom Block' Block.
  *
  * @Block(
- *   id = "drupalup_block",
- *   admin_label = @Translation("Drupalup block"),
+ *   id = "welcome_block",
+ *   admin_label = @Translation("Welcome block"),
  *   category = @Translation("Display welcome message depending of authentication"),
  * )
  */
-class DrupalupBlock extends BlockBase {
+class WelcomeBlock extends BlockBase {
 
   /**
    * {@inheritdoc}
