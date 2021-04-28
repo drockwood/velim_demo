@@ -1,0 +1,5 @@
+name: 'DrupalupBlock'
+type: module
+description: 'Display welcome message based on user authentication'
+core_version_requirement: ^8 || ^9
+package: 'Velir'
