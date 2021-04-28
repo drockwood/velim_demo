@@ -1,0 +1,5 @@
+name: 'Node Normalizer'
+type: module
+description: 'Serialize nodes with ContentEntityNormalizer'
+core_version_requirement: ^8 || ^9
+package: 'Velir'
