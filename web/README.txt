@@ -22,3 +22,6 @@ Task 4:
           themes/olivero/olivero.theme
 Task 6:
    Files: modules/custom/welcome_block
+
+Task 7:
+   Files: modules/custom/node_normalizer/src/Normalizer/NodeEntityNormalizer.php

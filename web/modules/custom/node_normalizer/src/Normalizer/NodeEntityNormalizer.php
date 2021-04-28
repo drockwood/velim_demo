@@ -30,6 +30,9 @@ class NodeEntityNormalizer extends ContentEntityNormalizer {
     // The link to the node entity.
     $attributes['link'] = $entity->toUrl()->toString();
 
+    //  DR: appends an additional attribute of "velir" with the value "212".
+    $attributes['"velir'] = 212;;
+
     // Re-sort the array after our new additions.
     ksort($attributes);
 
